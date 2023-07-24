@@ -2,7 +2,7 @@ const chatInput = document.querySelector(".chat_input textarea");
 const sendChat = document.querySelector(".chat_input span");
 const messageSpace = document.querySelector(".chatbot ul");
 let userMessage;
-const API_KEY = "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";
+const API_KEY = "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";
 const chatbotCollapse = document.querySelector(".chatbot_collapse");
 const closeBtn = document.querySelector(".close_btn");
 const inputHeight = chatInput.scrollHeight;
