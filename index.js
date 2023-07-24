@@ -91,7 +91,7 @@ chatbotCollapse.addEventListener("click", function () {
   document.body.classList.toggle("show_chatbot");
 });
 
-sendChat.addEventListener("click", afterSend());
+sendChat.addEventListener("click",afterSend);
 
 chatInput.addEventListener("input", function () {
   chatInput.style.height = `${chatInput.scrollHeight}px`;
